@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>
+		 BootStrap
+		</title>
+		<meta name="viewport" content="width=device-width",initial-scale=1">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<script src="js/jquery-1.12.0.js">
+		</script>
+		<script src="js/bsdemo.js">
+		</script>
+	</head>
+
+	<body>
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">
+					<img alt="Name" src="image/bootstrap.png" height=100% widht=100%>
+				</a>
+			</div>
+			<div class="collapse navbar-collapse" id = "myNavBar">
+				<ul class="nav navbar-nav">
+					<li>
+						<a href="#">
+							Home
+						</a>
+					</li>
+
+					<li>
+						<a href="#">
+							About
+						</a>
+					</li>
+
+					<li>
+						<a href="#">
+							Gallery
+						</a>
+					</li>
+					<li class="active">
+						<a href="#">
+							Contact us
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+	<div class="page-header">
+		<h1>Please Provide Information : </h1>
+	</div>
+
+	<form role="form" class="form-horizontal" action="#" method="post" id="myForm">
+
+		<div class="form-group">
+			<label for="First-name" class="control-label col-sm-2">
+				First Name:
+			</label>
+
+			<div class="col-sm-6">
+				<input type="text" class="form-control" id="fName">
+			</div>
+			<label for="err-First-name" class="control-label col-sm-3 text-danger " id="errFname">
+
+			</label>
+		</div>
+
+
+		<div class="form-group">
+			<label for="Last-name" class="control-label col-sm-2">
+				Last Name:
+			</label>
+
+			<div class="col-sm-6">
+				<input type="text" class="form-control" id="lName">
+			</div>
+			<label for="err-Last-name" class="control-label col-sm-3 text-danger" id="errLname">
+
+			</label>
+		</div>
+
+
+		<div class="form-group">
+			<label for="DOB" class="control-label col-sm-2" >
+				Date Of Birth:
+			</label>
+			<div class="col-sm-6">
+				<input type="date" class="form-control" id="dob">
+			</div>
+			<label for="err-DOB" class="control-label col-sm-3 text-danger" id="errDOB">
+
+			</label>
+		</div>
+
+
+		<div class="form-group">
+				<label for="mob" class="control-label col-sm-2">
+					Mobile:
+				</label>
+				<div class="col-sm-6">
+					<input type="text" class="form-control" id="mob">
+				</div>
+				<label for="err-Mob" class="control-label col-sm-3 text-danger" id="errMob">
+
+			</label>
+		</div>
+
+
+		<div class="form-group">
+			<label for="address" class="control-label col-sm-2">
+				Address:
+			</label>
+			<div class="col-sm-6">
+				<textarea class="form-control " id="address"></textarea>
+			</div>
+			<label for="err-Address" class="control-label col-sm-3 text-danger" id="errAddress">
+
+			</label>
+		</div>
+
+
+		<div class="form-group">
+			<label for="Message" class="control-label col-sm-2">
+				Message:
+			</label>
+			<div class="col-sm-6">
+				<textarea class="form-control " id="message"></textarea>
+			</div>
+			<label for="err-Message" class="control-label col-sm-3 text-danger" id="errMessage">
+
+			</label>
+		</div>
+
+
+		<div class="from-group">
+			<div class="col-sm-offset-2 col-sm-6">
+				<button type="submit" class="btn btn-default" >
+					Submit
+				</button>
+			</div>
+		</div>
+
+
+
+	</form>
+	</body>
+</html>
