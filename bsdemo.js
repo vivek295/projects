@@ -45,7 +45,14 @@ var validateLname = function(){
 
 };
 var validateDOB = function(){
-	return true;
+	if($("#dob").val()=="") {
+		$("#errDOB").text("Invalid");
+		return false;
+	  }
+	else{
+		$("#errDOB").text("Ok");
+		return true;
+	}
 };
 var validateMob = function(){
 	if($.trim($("#mob").val()).length != 10){
